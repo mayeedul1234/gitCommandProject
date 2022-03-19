@@ -1,0 +1,808 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-17T00:51:36.702Z",
+        "line": 16,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1025552600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2056488800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1026015000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92020400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73901400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64015000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T00:51:41.065Z",
+        "line": 17,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 787186000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1818682300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071770000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88019600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84019500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78017500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T00:51:45.000Z",
+        "line": 18,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 837789200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1881655900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1057517300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73010100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76017700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67017000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T00:51:49.000Z",
+        "line": 19,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 873550300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1741203400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 982739400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90015400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75020400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd1234567\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74815200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T00:51:52.841Z",
+        "line": 20,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 834877400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1613766300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1170274200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94020200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27@yahoo.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75017000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82019000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T00:51:56.716Z",
+        "line": 21,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 848808600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4823482300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017720000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87018300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81020100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd123456789\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126029200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to login with valid email \u0026 password",
+    "description": "Description: \"User login to zoopla website \u0026 verify login\"",
+    "id": "user-is-able-to-login-with-valid-email-\u0026-password",
+    "keyword": "Feature",
+    "uri": "file:Feature/NegetiveTesting.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-17T00:52:03.706Z",
+        "line": 5,
+        "name": "User login with valid email and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-email-\u0026-password;user-login-with-valid-email-and-verify-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 919923500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1641930400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the \"https://www.zoopla.co.uk\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_is_able_to_enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1135760800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on the Sign in button",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127030300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter email \"mayeedul.islam27@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayeedul.islam27@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98022800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter password \"abcd12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepDefination.LoginFunctionality.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135032000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on the Sign in botton",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_click_on_the_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User successfully login zoopla account",
+            "match": {
+              "location": "com.stepDefination.LoginFunctionality.user_successfully_login_zoopla_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to login with valid email \u0026 password",
+    "description": "Description: \"User login to zoopla website \u0026 verify login\"",
+    "id": "user-is-able-to-login-with-valid-email-\u0026-password",
+    "keyword": "Feature",
+    "uri": "file:Feature/login.feature",
+    "tags": []
+  }
+]
